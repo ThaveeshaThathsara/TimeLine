@@ -1,0 +1,82 @@
+body{
+  background: #f1cdcd;
+  font-family: "Popins", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+}
+
+.vertical-timeline-element-content{
+  background: #530d0d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 5px 0;
+}
+
+.date{
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons{
+  text-decoration: none;
+}
+
+.Workbtn{
+  background: #530d0d;
+  color: #f1cdcd;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 120px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Workbtn:hover{
+  background: #f1cdcd;
+  color: #530d0d;
+  
+}
+.Schoolbutton{
+  background: #e38181;
+  color: #662222;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 120px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Schoolbutton:hover{
+  background: #662222;
+  color: #e38181;
+  
+}
+
+@media only screen and (max-width: 1700px) {
+  .Workbtn{
+    margin: 30px;
+    margin-top: 10px;
+  }
+  .Schoolbutton{
+    margin: 20px;
+  }
+
+  .vertical-timeline-element-content{
+    margin: 20px 0;
+  }
+  .vertical-timeline-element-date{
+    margin: 0;
+  }
+}
